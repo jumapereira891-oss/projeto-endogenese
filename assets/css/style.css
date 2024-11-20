@@ -51,12 +51,103 @@ section#home main {
   display: flex;
   flex-direction: row;
 }
-
+section#home main div {
+  margin: auto 20px;
+}
 section#home h1 {
   font-size: 40pt;
   font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
 }
-
 section#home p {
   font-size: 14pt;
+  text-align: center;
+}
+/*sessão sobre*/
+section#sobre {
+  background-color: #fff;
+  color: #282e2b;
+}
+section#sobre main {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+section#sobre main div.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+section#sobre main div.conteudo div {
+  margin: 0 20px;
+}
+section#sobre h1 {
+  font-size: 30pt;
+  margin: 20px 0 0 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+section#sobre div.titulo div.borda {
+  background-color: #282e2b;
+  width: 80px;
+  height: 6px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+section#sobre p {
+  text-align: justify;
+  text-indent: 50px;
+}
+/*sessão portfolio*/
+section#portfolio {
+  background-color: #282e2b;
+  color: #fff;
+}
+section#portfolio main.interface {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+section#portfolio main.interface div.conteudo {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  justify-content: center;
+}
+section#portfolio h1 {
+  font-size: 30pt;
+  margin: 20px 0 0 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+section#portfolio div.titulo div.borda {
+  background-color: #fff;
+  width: 80px;
+  height: 6px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+section#portfolio div.conteudo figure {
+  background-color: #fff;
+  color: #282e2b;
+  border-radius: 10px;
+}
+section#portfolio div.conteudo figure img{
+  border-radius: 10px ;
+}
+section#portfolio div.conteudo figure figcaption{
+  padding: 5px 0;
+}
+section#portfolio div.conteudo figure figcaption h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16pt;
+}
+section#portfolio div.conteudo figure figcaption p {
+  margin: 0;
+  text-align: center;
 }
