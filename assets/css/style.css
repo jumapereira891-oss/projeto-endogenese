@@ -4,7 +4,6 @@
   font-style: normal;
 }
 body {
-  background-color: #cecece;
   margin: 0;
 }
 .interface {
@@ -183,7 +182,7 @@ section#equipe main div.conteudo {
 }
 section#equipe main div.conteudo figure {
   padding: 2px 30px;
-  margin: 0 5px; 
+  margin: 0 5px;
   border: 1px solid #cecece;
   border-bottom: 4px solid green;
 }
@@ -198,4 +197,70 @@ section#equipe main div.conteudo figcaption p {
   font-size: 12px;
   margin: 0;
   margin-bottom: 10px;
+}
+/*SESSÃO CONTATO*/
+section#contato {
+  background-image: url("../images/fundo-contato.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+section#contato main.interface {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+section#contato main div.titulo h1 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+section#contato main div.titulo div.borda {
+  background-color: #fff;
+  width: 80px;
+  height: 6px;
+  margin-bottom: 20px;
+}
+
+section#contato main div.conteudo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+section#contato main div.conteudo div#mapa {
+  background-color: #cecece;
+  width: 100%;
+  height: 350px;
+}
+section#contato main div.conteudo div.formulario{
+  width: 400px;
+  margin-left: 10px;
+}
+section#contato main div.conteudo form {
+  display: flex;
+  flex-direction: column;
+}
+section#contato main div.conteudo form input{
+  height: 30px;
+  margin-bottom: 10px;
+}
+section#contato main div.conteudo form textarea{
+  height: 100px;
+  margin-bottom: 10px;
+}
+section#contato main div.conteudo form button {
+  width:100px;
+  font-weight: bold;
+}
+/*SESSAO FOOTER*/
+footer{
+  background-color: #282e2b;
+  color: white;
+}
+footer main.interface{
+  padding: 30px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
