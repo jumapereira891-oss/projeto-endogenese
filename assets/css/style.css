@@ -134,10 +134,10 @@ section#portfolio div.conteudo figure {
   color: #282e2b;
   border-radius: 10px;
 }
-section#portfolio div.conteudo figure img{
-  border-radius: 10px ;
+section#portfolio div.conteudo figure img {
+  border-radius: 10px;
 }
-section#portfolio div.conteudo figure figcaption{
+section#portfolio div.conteudo figure figcaption {
   padding: 5px 0;
 }
 section#portfolio div.conteudo figure figcaption h2 {
@@ -150,4 +150,52 @@ section#portfolio div.conteudo figure figcaption h2 {
 section#portfolio div.conteudo figure figcaption p {
   margin: 0;
   text-align: center;
+}
+/* SESSÃO EQUIPE */
+section#equipe {
+  background-color: #fff;
+  color: #282e2b;
+}
+section#equipe main.interface {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+}
+section#equipe main div.titulo h1 {
+  font-size: 30px;
+  margin: 20px 0 0 0;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+section#equipe main div.titulo div.borda {
+  background-color: #282e2b;
+  width: 80px;
+  height: 6px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+section#equipe main div.conteudo {
+  display: flex;
+  flex-direction: row;
+  margin: 5px 0;
+  justify-content: center;
+}
+section#equipe main div.conteudo figure {
+  padding: 2px 30px;
+  margin: 0 5px; 
+  border: 1px solid #cecece;
+  border-bottom: 4px solid green;
+}
+section#equipe main div.conteudo figcaption h3 {
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+}
+section#equipe main div.conteudo figcaption p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin: 0;
+  margin-bottom: 10px;
 }
