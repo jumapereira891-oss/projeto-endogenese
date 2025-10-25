@@ -6,15 +6,7 @@
 body {
   margin: 0;
 }
-.interface {
-  width: 1170px;
-  margin: auto;
-}
-header {
-  background-color: #fff;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
+
 header nav img {
   display: inline-block;
 }
